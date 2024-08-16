@@ -4,7 +4,7 @@
   "description": "Just a playground to learn about GitHub Actions",
   "main": "index.js",
   "scripts": {
-    "test": "node ./gh-actions-playground",
+    "test": "node ./gh-actions/test-cli",
     "ci": "echo \"Running CI\"",
     "build": "echo \"Running build\""
   },
