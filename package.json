@@ -4,7 +4,7 @@
   "description": "Just a playground to learn about GitHub Actions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Running test\"",
     "ci": "echo \"Running CI\"",
     "build": "echo \"Running build\""
   },
