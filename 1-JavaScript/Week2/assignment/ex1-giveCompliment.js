@@ -1,4 +1,4 @@
-export function giveCompliment(name) {
+export function giveCompliment(name, dummy) {
   const compliments = [
     'great',
     'awesome',
