@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="0" errors="0" time="0.563">
+  <testsuite name="giveCompliment" errors="0" failures="0" skipped="0" timestamp="2024-08-16T16:01:32" time="0.221" tests="3">
+    <testcase classname="giveCompliment should exist and be executable" name="giveCompliment should exist and be executable" time="0.002">
+    </testcase>
+    <testcase classname="giveCompliment should take a single parameter" name="giveCompliment should take a single parameter" time="0">
+    </testcase>
+    <testcase classname="giveCompliment should give a random compliment: You are `compliment`, `name`!" name="giveCompliment should give a random compliment: You are `compliment`, `name`!" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
