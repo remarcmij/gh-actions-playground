@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "node ./gh-actions/test-cli",
-    "ci": "echo \"Running CI\"",
     "build": "echo \"Running build\""
   },
   "keywords": [],

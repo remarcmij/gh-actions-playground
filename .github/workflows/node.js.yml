@@ -28,3 +28,13 @@ jobs:
       - run: npm ci
       - run: npm run build --if-present
       - run: npm test -- ${{ github.repository_owner }}
+      - name: Add a comment
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '👋 Thanks for opening this pull request! I will run tests on it.'
+            })
